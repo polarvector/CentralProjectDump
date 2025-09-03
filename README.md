@@ -1,0 +1,1 @@
+I have been programming for long but never really committed to version control and Git, simply because I didn't need it as I wasn't building serious software. Just snippets that did cool stuff I wanted. This is totally undocumented and pre-ChatGPT for most of it so hope to find a lot of 'amateur' code within.
