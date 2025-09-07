@@ -475,6 +475,19 @@ def deg(angle):
 def rad(angle):
      return angle*pi/180
 
+def sep():
+     forward(100)
+
+def triangle(r):
+     left(60)
+     forward(r)
+     right(120)
+     forward(r)
+     left(60)
+     back(r)
+     forward(r)
+
+
 def main():
      #if len(sys.argv) == 2: random_walks()
      #elif len(sys.argv) == 5: twist()
@@ -483,7 +496,11 @@ def main():
      #eye()
      #mangenkyou()
      write(input("What shall the tiny turtle write?\n\n").strip().upper())
+     done()
      #done()
+     # circle(100)
+     # sep()
+     # triangle(100)
 
 if __name__ == "__main__":
      main()
